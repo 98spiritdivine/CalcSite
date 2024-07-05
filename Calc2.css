@@ -10,12 +10,8 @@ body{
     
 }
 
-background{
-    background-repeat: no-repeat;
-}
 
 .navbar {
-   /* overflow: hidden; */
     background-color: #333;
     top: 0;
         margin-bottom: 600px;
