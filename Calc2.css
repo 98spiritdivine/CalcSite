@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+        background: linear-gradient(rgba(42, 83, 62, 0.7), rgba(110, 112, 146, 0.7)), url('calc3.jpg');
+            /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    background-color: hsl(0, 31%, 81%);
+    
+}
+
+background{
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+        margin-bottom: 600px;
+        position: relative;
+        border-radius: 30px;
+            /* z-index: 10; */
+    /* justify-content: left; */
+    /* align-items: top; */
+    /* position:fixed;
+     top:0;  
+    margin-bottom: 600px;
+    /* Set the navbar to fixed position */
+    /* top: 10px; */
+    /* Position the navbar at the top of the page */
+
+    /* Full width*/
+}
+
+#calculator{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(0,0%, 15%);
+    border-radius: 15px;
+    max-width: 500px;
+    /* overflow: hidden; */
+    height: fit-content;
+    margin-left: 100px;
+    margin-top: auto;
+            background: linear-gradient(rgba(83, 42, 42, 0.7), rgba(70, 60, 60, 0.7)), url('calc1.jpg');
+    
+
+}
+
+#display{
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: hsl(0, 0%, 25%);
+    height: 30px;
+    height: fit-content;
+    border-radius: 300px;
+    /* margin-left: 300px; */
+}
+
+
+#keys{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap:10px;
+   
+    padding: 25px;
+    height: auto;
+    width:auto;
+border-radius: 50%;
+}
+button{
+    width: 80px;
+    height: 80px;
+        border: none;
+    background-color: hsl(0,0%, 30%);
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+        border-radius: 100%;
+
+}
+
+button:hover{
+    background-color: hsl(194, 31%, 81%);
+}
+button:active{
+background-color: hsl(0, 0%, 25%)
+}
+
+.operator-btn{
+    background-color: coral;
+}
+
+.operator-btn:hover {
+    background-color: rgb(188, 255, 80);
+}
+
+.operator-btn:active {
+    background-color: rgb(255, 80, 211);
+}
+
+
+
