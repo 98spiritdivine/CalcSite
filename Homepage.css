@@ -1,3 +1,36 @@
 body{
         background: linear-gradient(rgba(83, 42, 42, 0.7), rgba(70, 60, 60, 0.7)), url('palm2.jpg');
     } 
+
+    @keyframes slide {
+            from {
+                    transform: translateX(300px);
+            }
+
+            to {
+                    transform: translateY(200px);
+            }
+    }
+
+    h1 {
+            font-size: 2rem;
+            font-family: montserat;
+            font-optical-sizing: auto;
+    }
+
+    .heading {
+            transition: color 500ms;
+            animation-name: slide;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-iteration-count: 2;
+            animation-direction: forwards;
+            animation-fill-mode: forwards;
+            transform: translateX();
+            color: powderblue;
+            font-size: 5rem;
+            text-align: center;
+
+            /* animation: slide 1s ease-in; */
+
+    }
